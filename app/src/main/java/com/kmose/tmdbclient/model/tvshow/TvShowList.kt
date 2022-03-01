@@ -1,4 +1,4 @@
-package com.kmose.tmdbclient.data
+package com.kmose.tmdbclient.model.tvshow
 
 
 import com.google.gson.annotations.SerializedName

@@ -1,4 +1,4 @@
-package com.kmose.tmdbclient.data
+package com.kmose.tmdbclient.model.movie
 import com.google.gson.annotations.SerializedName
 
 data class MovieList(

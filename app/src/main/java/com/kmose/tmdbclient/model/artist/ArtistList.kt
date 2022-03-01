@@ -1,4 +1,4 @@
-package com.kmose.tmdbclient.data
+package com.kmose.tmdbclient.model.artist
 import com.google.gson.annotations.SerializedName
 
 data class ArtistList(

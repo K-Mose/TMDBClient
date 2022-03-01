@@ -1,8 +1,8 @@
 package com.kmose.tmdbclient.data.api
 
-import com.kmose.tmdbclient.data.ArtistList
-import com.kmose.tmdbclient.data.MovieList
-import com.kmose.tmdbclient.data.TvShowList
+import com.kmose.tmdbclient.model.artist.ArtistList
+import com.kmose.tmdbclient.model.movie.MovieList
+import com.kmose.tmdbclient.model.tvshow.TvShowList
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Query
