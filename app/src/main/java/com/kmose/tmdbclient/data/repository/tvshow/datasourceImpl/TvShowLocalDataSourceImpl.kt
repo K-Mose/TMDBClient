@@ -1,6 +1,7 @@
-package com.kmose.tmdbclient.data.repository.tvshow
+package com.kmose.tmdbclient.data.repository.tvshow.datasourceImpl
 
 import com.kmose.tmdbclient.data.db.TvShowDao
+import com.kmose.tmdbclient.data.repository.tvshow.datasource.TvShowLocalDataSource
 import com.kmose.tmdbclient.model.tvshow.TvShow
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers

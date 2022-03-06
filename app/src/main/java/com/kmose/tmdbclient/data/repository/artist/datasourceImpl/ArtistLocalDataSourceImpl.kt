@@ -1,6 +1,7 @@
-package com.kmose.tmdbclient.data.repository.artist
+package com.kmose.tmdbclient.data.repository.artist.datasourceImpl
 
 import com.kmose.tmdbclient.data.db.ArtistDao
+import com.kmose.tmdbclient.data.repository.artist.datasource.ArtistLocalDataSource
 import com.kmose.tmdbclient.model.artist.Artist
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers

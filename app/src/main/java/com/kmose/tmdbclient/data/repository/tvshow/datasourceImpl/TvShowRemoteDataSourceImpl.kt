@@ -1,7 +1,7 @@
-package com.kmose.tmdbclient.data.repository.tvshow
+package com.kmose.tmdbclient.data.repository.tvshow.datasourceImpl
 
 import com.kmose.tmdbclient.data.api.TMDBService
-import com.kmose.tmdbclient.model.tvshow.TvShow
+import com.kmose.tmdbclient.data.repository.tvshow.datasource.TvShowRemoteDataSource
 import com.kmose.tmdbclient.model.tvshow.TvShowList
 import retrofit2.Response
 

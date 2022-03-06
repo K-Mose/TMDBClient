@@ -1,5 +1,6 @@
-package com.kmose.tmdbclient.data.repository.artist
+package com.kmose.tmdbclient.data.repository.artist.datasourceImpl
 
+import com.kmose.tmdbclient.data.repository.artist.datasource.ArtistCacheDataSource
 import com.kmose.tmdbclient.model.artist.Artist
 
 class ArtistCacheDataSourceImpl : ArtistCacheDataSource {

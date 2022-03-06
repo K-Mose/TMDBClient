@@ -1,4 +1,4 @@
-package com.kmose.tmdbclient.data.repository.artist
+package com.kmose.tmdbclient.data.repository.artist.datasource
 
 import com.kmose.tmdbclient.model.artist.ArtistList
 import retrofit2.Response

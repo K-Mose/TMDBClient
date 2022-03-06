@@ -1,5 +1,6 @@
-package com.kmose.tmdbclient.data.repository.movie
+package com.kmose.tmdbclient.data.repository.movie.datasourceImpl
 
+import com.kmose.tmdbclient.data.repository.movie.datasource.MovieCacheDataSource
 import com.kmose.tmdbclient.model.movie.Movie
 
 // singleton으로 사용해 유지시킴

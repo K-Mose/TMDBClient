@@ -1,5 +1,6 @@
-package com.kmose.tmdbclient.data.repository.tvshow
+package com.kmose.tmdbclient.data.repository.tvshow.datasourceImpl
 
+import com.kmose.tmdbclient.data.repository.tvshow.datasource.TvShowCacheDataSource
 import com.kmose.tmdbclient.model.tvshow.TvShow
 
 class TvShowCacheDataSourceImpl : TvShowCacheDataSource {

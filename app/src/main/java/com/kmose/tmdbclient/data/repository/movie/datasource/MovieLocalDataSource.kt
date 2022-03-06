@@ -1,4 +1,4 @@
-package com.kmose.tmdbclient.data.repository.movie
+package com.kmose.tmdbclient.data.repository.movie.datasource
 
 import com.kmose.tmdbclient.model.movie.Movie
 

@@ -1,6 +1,9 @@
 package com.kmose.tmdbclient.data.repository.artist
 
 import android.util.Log
+import com.kmose.tmdbclient.data.repository.artist.datasource.ArtistCacheDataSource
+import com.kmose.tmdbclient.data.repository.artist.datasource.ArtistLocalDataSource
+import com.kmose.tmdbclient.data.repository.artist.datasource.ArtistRemoteDataSource
 import com.kmose.tmdbclient.domain.repository.ArtistRepository
 import com.kmose.tmdbclient.model.artist.Artist
 
