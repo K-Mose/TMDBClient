@@ -32,6 +32,7 @@ android {
     }
     kotlinOptions {
         jvmTarget = '1.8'
+        freeCompilerArgs = ['-Xjvm-default=compatibility'] // ViewModelProvider Error - https://stackoverflow.com/questions/53964192/jvmdefault-and-how-add-compiler-option
     }
     buildFeatures {
         dataBinding true
