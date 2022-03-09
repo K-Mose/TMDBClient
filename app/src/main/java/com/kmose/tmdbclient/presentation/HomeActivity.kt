@@ -10,7 +10,7 @@ import com.kmose.tmdbclient.presentation.artist.ArtistActivity
 import com.kmose.tmdbclient.presentation.movie.MovieActivity
 import com.kmose.tmdbclient.presentation.tv.TvShowActivity
 
-class HomenActivity : AppCompatActivity() {
+class HomeActivity : AppCompatActivity() {
     private lateinit var binding: ActivityHomeBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -18,17 +18,17 @@ class HomenActivity : AppCompatActivity() {
         binding = DataBindingUtil.setContentView(this, R.layout.activity_home)
         binding.apply {
             moviesButton.setOnClickListener {
-                val intent = Intent(this@HomenActivity, MovieActivity::class.java)
+                val intent = Intent(this@HomeActivity, MovieActivity::class.java)
                 startActivity(intent)
             }
 
             tvShowButton.setOnClickListener {
-                val intent = Intent(this@HomenActivity, TvShowActivity::class.java)
+                val intent = Intent(this@HomeActivity, TvShowActivity::class.java)
                 startActivity(intent)
             }
 
             artistsButton.setOnClickListener {
-                val intent = Intent(this@HomenActivity, ArtistActivity::class.java)
+                val intent = Intent(this@HomeActivity, ArtistActivity::class.java)
                 startActivity(intent)
             }
         }
