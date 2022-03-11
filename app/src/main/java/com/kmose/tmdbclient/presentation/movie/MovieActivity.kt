@@ -59,7 +59,7 @@ class MovieActivity : AppCompatActivity() {
                 adapter.notifyDataSetChanged()
                 binding.movieProgressBar.visibility = View.GONE
             } else {
-                binding.movieProgressBar.visibility = View.VISIBLE
+                binding.movieProgressBar.visibility = View.GONE
                 Toast.makeText(applicationContext, "No Data Available", Toast.LENGTH_LONG).show()
             }
         })
