@@ -9,7 +9,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="colorWhite">#FFFFFF</color>
     <color name="colorPrimaryDark">#3700B3</color>
-    <color name="colorAccent">#03DAC5</color>
+    <color name="colorAccent">#252727</color>
     <color name="btnBackground">#22211F</color>
     <color name="btnBorder">#8B878E</color>
 </resources>
