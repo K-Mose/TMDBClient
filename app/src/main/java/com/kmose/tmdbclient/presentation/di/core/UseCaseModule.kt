@@ -15,8 +15,8 @@ class UseCaseModule {
     }
 
     @Provides
-    fun provideUpdateMovieUseCase(movieRepository: MovieRepository): UpdateMoviesUsecase {
-        return UpdateMoviesUsecase(movieRepository)
+    fun provideUpdateMovieUseCase(movieRepository: MovieRepository): UpdateMoviesUseCase {
+        return UpdateMoviesUseCase(movieRepository)
     }
 
     @Provides
